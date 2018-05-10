@@ -11,7 +11,7 @@ import com.humbertogrillo.cursomc.domain.Categoria;
 import com.humbertogrillo.cursomc.services.CategoriaService;
 
 @RestController
-@RequestMapping(value = "/categorias")
+@RequestMapping(value = RestEndpoint.CATEGORIA)
 public class CategoriaResource {
 
 	@Autowired
